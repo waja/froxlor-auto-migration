@@ -14,7 +14,7 @@ Architecture: any
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- froxlor | php-cli
+ froxlor (>= 2.1.0) | php-cli
 Description: Run db migrations after Froxlor update
  This is a helper script running database migrations after installing a newer
  Froxlor package.
