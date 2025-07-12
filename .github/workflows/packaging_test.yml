@@ -1,6 +1,7 @@
 name: Packaging Test
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - $default-branch
