@@ -19,7 +19,7 @@ if [ "${CURRENT_VERSION}" != "${LAST_VERSION}" ] && [ "${CURRENT_VERSION}" != "n
     echo "🟡 New Froxlor version detected: ${CURRENT_VERSION} (previous: ${LAST_VERSION})"
     echo "➡️  Starting database migration ..."
 
-    ${PHP_BIN} "${FROXLOR_DIR}/bin/froxlor-cli" froxlor:update -d
+    ${PHP_BIN} "${FROXLOR_DIR}/bin/froxlor-cli" froxlor:update -d -A
     EXITCODE=$?
 
     if [ ${EXITCODE} -eq 0 ]; then
