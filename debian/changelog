@@ -1,5 +1,10 @@
-froxlor-auto-migration (0.1) UNRELEASED; urgency=medium
+froxlor-auto-migration (0.1) restricted; urgency=medium
 
   * Initial release.
+  * [2bc84d7] d/rules: Add php-cli as dependency alternative to fix
+    action-debian-package in the CI pipeline
+  * [c781bc4] CI: Adding workflow_dispatch as trigger
+  * [8d12ebd] d/control: Depend on froxlor >= 2.1.0, since the migration
+    option was added there
 
- -- Jan Wagner <waja@cyconet.org>  Sat, 12 Jul 2025 12:48:59 +0000
+ -- Jan Wagner <waja@cyconet.org>  Sat, 12 Jul 2025 17:21:41 +0200
