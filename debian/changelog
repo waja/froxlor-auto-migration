@@ -1,8 +1,9 @@
-froxlor-auto-migration (0.2) UNRELEASED; urgency=medium
+froxlor-auto-migration (0.2) restricted; urgency=medium
 
-  * 
+  * [9e8e015] Adding initial README.md
+  * [eb6146b] Lower debhelper-compat (= 10) to be compatible with stretch
 
- -- Jan Wagner <waja@cyconet.org>  Sat, 12 Jul 2025 15:23:43 +0000
+ -- Jan Wagner <waja@cyconet.org>  Sat, 12 Jul 2025 18:07:14 +0200
 
 froxlor-auto-migration (0.1) restricted; urgency=medium
 
