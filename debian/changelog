@@ -1,8 +1,8 @@
-froxlor-auto-migration (0.3) UNRELEASED; urgency=medium
+froxlor-auto-migration (0.3) restricted; urgency=medium
 
-  *
+  * [e343b4d] Call froxlor-cli with '-A' to answer all questions with 'yes'
 
- -- Jan Wagner <waja@cyconet.org>  Sat, 12 Jul 2025 16:09:11 +0000
+ -- Jan Wagner <waja@cyconet.org>  Sat, 12 Jul 2025 18:30:13 +0200
 
 froxlor-auto-migration (0.2) restricted; urgency=medium
 
