@@ -1,3 +1,9 @@
+froxlor-auto-migration (0.3) UNRELEASED; urgency=medium
+
+  *
+
+ -- Jan Wagner <waja@cyconet.org>  Sat, 12 Jul 2025 16:09:11 +0000
+
 froxlor-auto-migration (0.2) restricted; urgency=medium
 
   * [9e8e015] Adding initial README.md
