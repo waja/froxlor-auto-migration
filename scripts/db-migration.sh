@@ -30,5 +30,5 @@ if [ "${CURRENT_VERSION}" != "${LAST_VERSION}" ] && [ "${CURRENT_VERSION}" != "n
         exit ${EXITCODE}
     fi
 else
-    echo "ℹ️ No Froxlor version installed. No migration needed."
+    echo "ℹ️ No (new) Froxlor version installed. No migration needed."
 fi
